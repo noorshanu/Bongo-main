@@ -13,14 +13,14 @@ function Hero() {
           className="w-full lg:w-[70%] lg:h-[70%] object-contain"
           alt=""
         />
-          <button className="py-4 px-10 rounded-full bg-primary border-2 border-primary transition-all duration-200 hover:bg-transparent hover:text-primary relative">
+          <div className=" transition-all duration-200 hover:bg-transparent hover:text-primary relative">
             <img
-              src="/images/heart.png"
-              className="absolute top-0 left-0 translate-y-[-30%] translate-x-[-30%] w-[40%] pointer-events-none select-none"
+              src="/images/btn-pink.png"
+              className="absolute top-0 left-0 "
               alt=""
             />
-            Buy Now
-          </button>
+            PINKSALE
+          </div>
       </div>
   
       {/* <img
