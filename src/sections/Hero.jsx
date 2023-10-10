@@ -23,7 +23,7 @@ function Hero() {
             </div>
             <div>
             <img
-              src="/images/btn-pink.png"
+              src="/images/btn-sky.png"
               className="w-[300px]"
               alt=""
             />
