@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "dream";
-  src: url("/fonts/Dream-to-Berich-DEMO.ttf");
+  src: url("/fonts/bongo.ttf");
 }
 
 .lh-1 {
@@ -45,7 +45,7 @@
 
   html,
   body {
-    @apply bg-primary text-white overflow-x-hidden;
+    @apply bg-[#fefcee] text-black overflow-x-hidden;
   }
 
   .container-wrapper {
