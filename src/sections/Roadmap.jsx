@@ -37,6 +37,26 @@ function Roadmap() {
         <Title className="text-center mb-10 pt-8">ROADMAP</Title>
 
         <img src="/images/roadmap.png" className="w-full" alt="" />
+
+        <div className="flex justify-between flex-col sm:flex-row">
+          <div className="bg-[#e9ecfa] p-4">
+            
+            <div>
+              <h1 className="font-dream text-black">Phase 1</h1>
+              </div></div> 
+
+              <div className="bg-[#e9ecfa] p-4">
+            
+            <div>
+              <h1 className="font-dream text-black">Phase 1</h1>
+              </div></div> 
+              <div className="bg-[#e9ecfa] p-4">
+            
+            <div>
+              <h1 className="font-dream text-black">Phase 1</h1>
+              </div></div> 
+
+        </div>
       </div>
     </section>
   );
