@@ -9,7 +9,7 @@ function Hero() {
 
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <img
-          src="/images/hero-couple-no-shadow.png"
+          src="/images/hero-img.png"
           className="w-full lg:w-[70%] lg:h-[70%] object-contain"
           alt=""
         />
