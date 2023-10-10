@@ -13,13 +13,23 @@ function Hero() {
           className="w-full lg:w-[70%] lg:h-[70%] object-contain"
           alt=""
         />
-          <div className=" transition-all duration-200 hover:bg-transparent hover:text-primary relative">
+          <div className="   flex flex-col sm:flex-row justify-center gap-6">
+            <div>
             <img
               src="/images/btn-pink.png"
-              className="absolute top-0 left-0 "
+              className="w-[300px]"
               alt=""
             />
-            PINKSALE
+            </div>
+            <div>
+            <img
+              src="/images/btn-pink.png"
+              className="w-[300px]"
+              alt=""
+            />
+            </div>
+           
+          
           </div>
       </div>
   

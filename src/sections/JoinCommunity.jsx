@@ -38,17 +38,9 @@ function JoinCommunity() {
 
       <div className="container-wrapper">
         <div className=" flex items-center justify-between">
-          <img
-            src="/images/glass.png"
-            className="w-full max-w-[24rem] mx-auto lg:mx-0 hidden sm:block"
-            alt=""
-          />
+       
 
-          <img
-            src="/images/comun.png"
-            alt=""
-            className="w-full max-w-[24rem] mx-auto lg:mx-0"
-          />
+       
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-between mb-2 lg:mb-20 text-center lg:text-left space-y-6 lg:space-y-0">
@@ -58,18 +50,17 @@ function JoinCommunity() {
           </h1>
 
           <div className="max-w-[20rem] w-full space-y-8">
-            <div className="flex items-center justify-center space-x-6">
-              {/* <SocialLink>
-                <FaFacebookF className="text-[1.8em]" />
-              </SocialLink>
-              <SocialLink>
-                <FaDiscord className="text-[1.8em]" />
-              </SocialLink>
-              <SocialLink>
-                <FaInstagram className="text-[1.8em]" />
-              </SocialLink> */}
-              {/* <img src="/images/comun.png" alt="" /> */}
-            </div>
+            
+            <div className="flex items-center -m-1 flex-wrap justify-center lg:justify-normal">
+            <Button className="m-1">Tokenomics</Button>
+            <Button link="https://twitter.com/barbielovepepe" className="m-1">
+              Twitter
+            </Button>
+            <Button link="https://t.me/barbielovepepe" className="m-1">
+              Telegram
+            </Button>
+          
+          </div>
 
             <input
               type="text"
@@ -80,30 +71,12 @@ function JoinCommunity() {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
-          <div className="flex items-center -m-1 flex-wrap justify-center lg:justify-normal">
-            <Button className="m-1">Tokenomics</Button>
-            <Button link="https://twitter.com/barbielovepepe" className="m-1">
-              Twitter
-            </Button>
-            <Button link="https://t.me/barbielovepepe" className="m-1">
-              Telegram
-            </Button>
-            <Button className="m-1">Buy Now</Button>
-          </div>
-
+     
           <p className="text-center lg:text-left">
             All rights reserved by BarbieLovePepe 2023
           </p>
         </div>
-        <div className="mt-6">
-          <p className="">
-            Disclaimer : BarbieLovePepe ($PEPIE) is a meme token, created for all that
-            fun! No big expectations, just your regular shenanigans, alright? It
-            could be fast or slow, rise or fall – stay cool. Investing in
-            cryptocurrency carries real risk. So, do your own research before
-            diving in, honey!
-          </p>
-        </div>
+     
       </div>
     </section>
   );

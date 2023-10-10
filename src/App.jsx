@@ -1,7 +1,7 @@
 import Navbar from "components/Navbar";
 import About from "sections/About";
-import BackedBy from "sections/BackedBy";
-import FeaturedOn from "sections/FeaturedOn";
+
+import FeaturedOn from "sections/Partners";
 import Get from "sections/Get";
 import Hero from "sections/Hero";
 import JoinCommunity from "sections/JoinCommunity";
@@ -47,13 +47,9 @@ function App() {
           <Roadmap />
         </div>
 
-        <div className="mb-20">
-          <Get />
-        </div>
+   
 
-        <div>
-          <BackedBy />
-        </div>
+      
 
         <img
           src="/images/star.png"
@@ -63,12 +59,7 @@ function App() {
 
         <div className="mb-20">
           <FeaturedOn />
-          <div className="my-10 mx-auto flex justify-center">
-            <a href="" className="py-3 px-10 rounded-full bg-[#87b133] text-xl transition-all duration-200 hover:bg-white hover:text-black">
-              Buy Now
-            </a>
-
-          </div>
+        
         </div>
       </main>
 
