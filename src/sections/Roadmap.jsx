@@ -29,7 +29,8 @@ const Grid = ({ direction = "left" }) => {
 
 function Roadmap() {
   return (
-    <section className="relative z-10 overflow-hidden">
+    <section className="relative z-10 ">
+      <img src="images/purple.png" alt="" className=" absolute -top-[50%] right-0 -z-10 h-[600px]"  />
     
 
       <div className="container-wrapper mb-14">
