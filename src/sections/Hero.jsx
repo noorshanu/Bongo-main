@@ -16,6 +16,9 @@ function Hero() {
         <img
           src="/images/hero-img.png"
           className="w-full lg:w-[55%] lg:h-[60%] object-contain"
+          data-aos="fade-up"
+     data-aos-offset="300" data-aos-duration="1500" 
+     data-aos-easing="ease-in-sine"
           alt=""
         />
         <div className="   flex flex-col sm:flex-row justify-center gap-6">
@@ -24,6 +27,7 @@ function Hero() {
               src="/images/btn-pink.png"
               className= "w-[150px] sm:w-[220px] h-auto mx-auto sm:mx-0"
               alt=""
+              
             />
             <h1 className=" absolute top-[32%] left-[26%] sm:left-[30%] -right[50%] font-bold text-base sm:text-xl">
               PINKSALE

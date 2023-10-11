@@ -6,10 +6,14 @@ function Product() {
     <section>
       <div className="container-wrapper">
         <div className="text-center">
-          <Title className="text-black">Bongo cat features</Title>
+          <Title className="text-black" data-aos="fade-up"
+     data-aos-offset="300" data-aos-duration="1500" 
+     data-aos-easing="ease-in-sine">Bongo cat features</Title>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-between gap-3 my-12 relative z-10">
+        <div className="flex flex-col sm:flex-row justify-between gap-3 my-12 relative z-10" data-aos="fade-up"
+     data-aos-offset="300" data-aos-duration="1500" 
+     data-aos-easing="ease-in-sine">
           <div>
             <img src="images/cream.png" alt="" className=" -top-[120%] absolute -left-[40%] -z-10 w-auto h-12 sm:h-[800px]" />
           </div>
