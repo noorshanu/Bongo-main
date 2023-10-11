@@ -23,10 +23,12 @@ function About() {
           </p>
         </div>
 
-        <div className=" mx-auto text-center my-10">
+        <div className=" mx-auto text-center my-10 relative z-10">
           <img src="images/about-img.png" alt="" />
+          <img src="images/sky.png" alt="" className=" absolute -top-[90%] -right-[40%] -z-10 h-[900px] "  />
         </div>
       </div>
+   
     </section>
   );
 }
