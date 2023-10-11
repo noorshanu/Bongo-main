@@ -4,7 +4,7 @@ function About() {
   return (
     <section className=" relative">
       <div>
-        <img src="images/bg-rain.png" alt="" className=" absolute top-0 -z-1" />
+        <img src="images/bg-rain.png" alt="" className=" absolute -top-[25%] -z-1" />
       </div>
       <div className="container-wrapper text-center block relative z-10">
         <div>
