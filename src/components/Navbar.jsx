@@ -9,20 +9,20 @@ function Navbar() {
     <>
       <nav className="z-[100] bg-secondary lg:bg-transparent">
         <div className="container-wrapper bg-white h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
-          <div className="items-center justify-evenly text-base font-medium text-primary hidden lg:flex">
+          <div className="items-center justify-evenly text-base font-medium text-black hidden lg:flex">
             <Link
               to="contact"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-              Contact Us
+            HOME
             </Link>
             <Link
               to="roadmap"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-              Roadmap
+            WHITEPAPER
             </Link>
           </div>
 
@@ -41,20 +41,20 @@ function Navbar() {
             <IoMenu />
           </button>
 
-          <div className="items-center justify-evenly text-base font-medium text-primary hidden lg:flex">
+          <div className="items-center justify-evenly text-base font-medium text-black hidden lg:flex">
             <Link
               to="about"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-              About Us
+              ROADMAP
             </Link>
             <Link
               to="tokenomics"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-              Tokenomics
+           TOKENOMICS
             </Link>
           </div>
         </div>
@@ -82,28 +82,28 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-            Contact Us
+            HOME
           </Link>
           <Link
             to="roadmap"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-            Roadmap
+           WHITEPAPER
           </Link>
           <Link
             to="about"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-            About Us
+          ROADMAP
           </Link>
           <Link
             to="tokenomics"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-            Tokenomics
+         TOKENOMICS
           </Link>
         </div>
       </div>

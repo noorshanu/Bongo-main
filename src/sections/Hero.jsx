@@ -10,14 +10,14 @@ function Hero() {
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <img
           src="/images/hero-img.png"
-          className="w-full lg:w-[70%] lg:h-[70%] object-contain"
+          className="w-full lg:w-[55%] lg:h-[60%] object-contain"
           alt=""
         />
           <div className="   flex flex-col sm:flex-row justify-center gap-6">
             <div className=" relative">
             <img
               src="/images/btn-pink.png"
-              className="w-[250px] h-auto"
+              className="w-[220px] h-auto"
               alt=""
             />
             <h1 className=" absolute top-3">PINKSALE</h1>
@@ -25,7 +25,7 @@ function Hero() {
             <div>
             <img
               src="/images/btn-sky.png"
-              className="w-[250px] h-auto"
+              className="w-[220px] h-auto"
               alt=""
             />
             </div>
@@ -34,11 +34,7 @@ function Hero() {
           </div>
       </div>
   
-      {/* <img
-        src="/images/pink-wave.svg"
-        className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 w-full scale-x-[1.1]"
-        alt=""
-      /> */}
+
     </section>
   );
 }

@@ -2,32 +2,26 @@ import Title from "components/Title";
 
 function About() {
   return (
-    <section className="container-wrapper grid lg:grid-cols-2 gap-10">
+    <section className="container-wrapper text-center">
       <div>
-        <img src="/images/about.png" className="w-full" alt="" />
-      </div>
-
-      <div>
-        <Title className="lh-1_5 mb-3">
-          WHAT IS <br />
-          BARBIE{" "}
-          <img
-            src="/images/heart-pink.png"
-            className="h-[1.2em] inline-block align-middle"
-            alt=""
-          />{" "}
-          PEPE? 
-        </Title>
+        <Title className="lh-1_5 mb-3 uppercase">WHAT IS BONGO CAT?</Title>
 
         <p className="font-daughter text-xl font-medium ">
-          Lets dive into the most exhilarating tale ever: BarbieLovePepe's ($PEPIE)
-          whirlwind journey!  This ain't your regular story; it got meme
-          adventures, a splash of sarcasm, a pinch of love, and you guessed it –
-          a cryptocurrency twist!  A memetic love story between those iconic
-          pink and green hearts!  BarbieLovePepe? Oh honey, she's armed with
-          memes that could practically work magic and a charm that's so
-          irresistible, it's like setting the whole Memeworld ablaze! 
+          Meet Bongo Cat: the next meme sensation in the wild world of crypto.
+          Think you've seen it all with Shiba, Baby Doge, and our dear froggy
+          friend Pepe? Think again. Here comes a feline with rhythm, ambition,
+          and a dream to join the meme coin hall of fame. Why should dogs and
+          frogs have all the fun? Introducing Bongo Cat ($BONGO) – a token
+          that's purring its way to the top of the meme food chain. Missed the
+          Doge train? Froze before grabbing some Pepe? Don't let history repeat
+          itself. Jump onto the $BONGO bandwagon and let’s make crypto
+          history... or at least some really good memes.
         </p>
+      </div>
+
+      <div className=" mx-auto text-center my-10">
+        <img src="images/about-img.png" alt="" />
+
       </div>
     </section>
   );
