@@ -25,7 +25,7 @@ const SocialLink = ({ children }) => {
 
 function JoinCommunity() {
   return (
-    <section className="pb-14 relative z-10 overflow-hidden">
+    <section className="pb-14 relative z-10 overflow-hidden bg-foot">
       <div className="container-wrapper">
         <div className=" flex items-center justify-between"></div>
 
