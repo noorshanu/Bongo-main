@@ -8,14 +8,14 @@ function Tokenomics() {
       <div className="grid sm:grid-cols-2 gap-10 items-center">
         <img src="/images/tokenomics-left.png" className="w-full" alt="" />
         <div className="">
-          <div className="bg-[#dbffc6] my-5 py-5 px-3 rounded-md white-shadow">
+          <div className="bg-[#dbffc6] my-5 py-5 px-3 rounded-md white-shadow text-center">
             <p>TEAM TOKENS = 0%</p>
             </div> 
-            <div className="bg-[#e9cdff] my-5 py-5 px-3 rounded-md white-shadow">
+            <div className="bg-[#e9cdff] my-5 py-5 px-3 rounded-md white-shadow text-center">
               <p>Marketing</p>
             </div>
 
-            <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow">
+            <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow text-center">
               <p>stealth Launch 100%</p>
 
             </div>

@@ -26,15 +26,8 @@ const SocialLink = ({ children }) => {
 function JoinCommunity() {
   return (
     <section className="pb-14 relative z-10 overflow-hidden">
-      <div
-        className="absolute top-[4rem] left-0 w-full h-full -z-20 opacity-60"
-        style={{
-          backgroundImage:
-            "linear-gradient(white 2px, transparent 2px),linear-gradient(90deg, white 2px, transparent 2px)",
-          backgroundSize: "3rem 3rem",
-        }}
-      ></div>
-      <div className="absolute top-0 left-0 w-full h-full -z-10 bg-gradient-to-b from-transparent to-primary"></div>
+  
+    
 
       <div className="container-wrapper">
         <div className=" flex items-center justify-between">

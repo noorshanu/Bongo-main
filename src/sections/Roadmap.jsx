@@ -30,30 +30,29 @@ const Grid = ({ direction = "left" }) => {
 function Roadmap() {
   return (
     <section className="relative z-10 overflow-hidden">
-      <Grid />
-      <Grid direction="right" />
+    
 
       <div className="container-wrapper mb-14">
         <Title className="text-center mb-10 pt-8">ROADMAP</Title>
 
         <img src="/images/roadmap.png" className="w-full" alt="" />
 
-        <div className="flex justify-between flex-col sm:flex-row">
-          <div className="bg-[#e9ecfa] p-4">
+        <div className="flex justify-between flex-col sm:flex-row gap-5">
+          <div className="bg-[#e9ecfa] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
             
             <div>
               <h1 className="font-dream text-black">Phase 1</h1>
               </div></div> 
 
-              <div className="bg-[#e9ecfa] p-4">
+              <div className="bg-[#ffeeb9] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
             
             <div>
-              <h1 className="font-dream text-black">Phase 1</h1>
+              <h1 className="font-dream text-black">Phase 2</h1>
               </div></div> 
-              <div className="bg-[#e9ecfa] p-4">
+              <div className="bg-[#fbcbe6] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
             
             <div>
-              <h1 className="font-dream text-black">Phase 1</h1>
+              <h1 className="font-dream text-black">Phase 3</h1>
               </div></div> 
 
         </div>
