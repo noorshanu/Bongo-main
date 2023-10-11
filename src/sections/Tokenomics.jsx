@@ -2,7 +2,7 @@ import Title from "components/Title";
 
 function Tokenomics() {
   return (
-    <section className="container-wrapper bg-[#deedfe] rounded-2xl py-10 sm:py-14 px-4 sm:px-10">
+    <section className="container-wrapper bg-[#deedfe] rounded-2xl py-10 sm:py-14 px-4 sm:px-10 relative z-10">
       <Title className="text-black mb-10 text-center">Tokenomics</Title>
 
       <div className="grid sm:grid-cols-2 gap-10 items-center">
