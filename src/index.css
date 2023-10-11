@@ -49,7 +49,7 @@
   }
 
   .container-wrapper {
-    @apply max-w-[1024px] w-[90%] mx-auto;
+    @apply max-w-[1124px] w-[95%] mx-auto;
   }
 }
 
