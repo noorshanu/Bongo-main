@@ -3,7 +3,7 @@ function Hero() {
     <section className="relative z-10 overflow-hidden">
       <img
         src="/images/house.png"
-        className="absolute top-0 left-0 w-full h-full object-cover object-top -z-10"
+        className="absolute top-0 left-0 w-full h-full object-fill object-center -z-10"
         alt=""
       />
 
@@ -14,17 +14,18 @@ function Hero() {
           alt=""
         />
           <div className="   flex flex-col sm:flex-row justify-center gap-6">
-            <div>
+            <div className=" relative">
             <img
               src="/images/btn-pink.png"
-              className="w-[300px]"
+              className="w-[250px] h-auto"
               alt=""
             />
+            <h1 className=" absolute top-3">PINKSALE</h1>
             </div>
             <div>
             <img
               src="/images/btn-sky.png"
-              className="w-[300px]"
+              className="w-[250px] h-auto"
               alt=""
             />
             </div>
