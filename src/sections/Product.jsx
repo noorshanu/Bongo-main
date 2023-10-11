@@ -11,13 +11,13 @@ function Product() {
 
         <div className="flex flex-col sm:flex-row justify-between gap-3 my-12 relative z-10">
           <div>
-            <img src="images/cream.png" alt="" className=" -top-[120%] absolute -left-[40%] -z-10 w-auto h-[800px]" />
+            <img src="images/cream.png" alt="" className=" -top-[120%] absolute -left-[40%] -z-10 w-auto h-12 sm:h-[800px]" />
           </div>
 
-          <img src="images/1.png" alt=""  className="h-[200px]" />
-          <img src="images/2.png" alt="" className="h-[200px]" />
-          <img src="images/3.png" alt=""  className="h-[200px]"/>
-          <img src="images/4.png" alt=""  className="h-[200px]"/>
+          <img src="images/1.png" alt=""  className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto" />
+          <img src="images/2.png" alt="" className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto" />
+          <img src="images/3.png" alt=""  className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"/>
+          <img src="images/4.png" alt=""  className="h-auto sm:h-[200px]  w-[200px] sm:w-auto mx-auto"/>
          
       </div>
       <div className="relative flex justify-center ml-0 sm:ml-14">
@@ -26,7 +26,7 @@ function Product() {
               className="w-[220px] h-auto"
               alt=""
             />
-            <h1 className=" absolute top-[32%] left-[46%]  font-bold text-xl">BUY NOW</h1>
+            <h1 className=" absolute top-[32%] left-[37%] sm:left-[46%]  font-bold text-xl">BUY NOW</h1>
             </div>
       </div>
     </section>

@@ -5,9 +5,9 @@ function Partners() {
     <div>
         <div className=' '>
             <div className='relative'>
-                <img src="images/head.png" alt="" className=' h-24 flex justify-center mx-auto  ' />
-                <div className=' absolute top-[25%] left-[26%] sm:left-[44%] '>
-                    <h1 className=' text-4xl  font-dream  uppercase'>BONGO CAT Partners</h1>
+                
+                <div className=' text-center '>
+                    <h1 className=' text-2xl sm:text-4xl  font-dream  uppercase'>BONGO CAT Partners</h1>
 
                 </div>
             </div>

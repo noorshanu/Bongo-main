@@ -10,7 +10,7 @@ function About() {
         <div>
           <Title className="lh-1_5 mb-3 uppercase">WHAT IS BONGO CAT?</Title>
 
-          <p className="font-daughter text-xl font-medium ">
+          <p className="font-daughter text-base sm:text-xl font-medium ">
             Meet Bongo Cat: the next meme sensation in the wild world of crypto.
             Think you've seen it all with Shiba, Baby Doge, and our dear froggy
             friend Pepe? Think again. Here comes a feline with rhythm, ambition,

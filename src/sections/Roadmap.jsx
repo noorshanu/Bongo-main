@@ -30,7 +30,7 @@ const Grid = ({ direction = "left" }) => {
 function Roadmap() {
   return (
     <section className="relative z-10 ">
-      <img src="images/purple.png" alt="" className=" absolute -top-[50%] right-0 -z-10 h-[600px]"  />
+      <img src="images/purple.png" alt="" className=" absolute -top-[50%] right-0 -z-10 h-[600px] hidden sm:block"  />
     
 
       <div className="container-wrapper mb-14">
