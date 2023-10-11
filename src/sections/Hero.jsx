@@ -8,9 +8,9 @@ function Hero() {
       />
 
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
-        <img src="images/cloud1.png" alt="" className=" absolute top-[20%] left-0 w-auto h-[120px]" />
-        <img src="images/star.png" alt="" className=" absolute top-[46%] left-[10%] w-auto h-[120px]" />
-        <img src="images/cloud2.png" alt="" className=" absolute top-[40%] right-0 w-auto h-[120px]" />
+        <img src="images/cloud1.png" alt="" className=" absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[120px]" />
+        <img src="images/star.png" alt="" className=" absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block" />
+        <img src="images/cloud2.png" alt="" className=" absolute top-[40%] right-0 w-auto h-[120px] hidden sm:block" />
         <img
           src="/images/hero-img.png"
           className="w-full lg:w-[55%] lg:h-[60%] object-contain"
@@ -20,20 +20,20 @@ function Hero() {
           <div className=" relative">
             <img
               src="/images/btn-pink.png"
-              className="w-[220px] h-auto"
+              className= "w-[150px] sm:w-[220px] h-auto mx-auto sm:mx-0"
               alt=""
             />
-            <h1 className=" absolute top-[32%] left-[30%] -right[50%] font-bold text-xl">
+            <h1 className=" absolute top-[32%] left-[26%] sm:left-[30%] -right[50%] font-bold text-base sm:text-xl">
               PINKSALE
             </h1>
           </div>
           <div className="relative">
             <img
               src="/images/btn-sky.png"
-              className="w-[220px] h-auto"
+              className=" w-[150px] sm:w-[220px] h-auto mx-auto sm:mx-0"
               alt=""
             />
-            <h1 className=" absolute top-[32%] left-[22%] -right[50%] font-bold text-xl">
+            <h1 className=" absolute top-[32%] left-[13%] sm:left-[22%] -right[50%] font-bold text-base sm:text-xl">
               COMMUNITY
             </h1>
           </div>
