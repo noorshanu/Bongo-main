@@ -8,7 +8,7 @@ function Hero() {
       />
 
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
-        <img src="images/cloud1.png" alt="" className=" absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[120px]" />
+        <img src="images/cloud1.png" alt="" className="x1 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[120px] z-50" />
         <img src="images/star.png" alt="" className=" absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block" />
         <img src="images/cloud2.png" alt="" className=" absolute top-[40%] right-0 w-auto h-[120px] hidden sm:block" />
         <img
