@@ -20,14 +20,15 @@ function Hero() {
               className="w-[220px] h-auto"
               alt=""
             />
-            <h1 className=" absolute top-3">PINKSALE</h1>
+            <h1 className=" absolute top-[32%] left-[30%] -right[50%] font-bold text-xl">PINKSALE</h1>
             </div>
-            <div>
+            <div className="relative">
             <img
               src="/images/btn-sky.png"
               className="w-[220px] h-auto"
               alt=""
             />
+            <h1 className=" absolute top-[32%] left-[22%] -right[50%] font-bold text-xl">COMMUNITY</h1>
             </div>
            
           
