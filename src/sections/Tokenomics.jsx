@@ -12,11 +12,11 @@ function Tokenomics() {
             <p>TEAM TOKENS = 0%</p>
             </div> 
             <div className="bg-[#e9cdff] my-5 py-5 px-3 rounded-md white-shadow text-center">
-              <p>Marketing</p>
+              <p className=" uppercase">Marketing tokens = 0%</p>
             </div>
 
             <div className="bg-[#ffcbdf] my-5 py-5 px-3 rounded-md white-shadow text-center">
-              <p>stealth Launch 100%</p>
+              <p className=" uppercase">stealth Launch 100%</p>
 
             </div>
 

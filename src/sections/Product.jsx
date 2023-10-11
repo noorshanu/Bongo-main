@@ -20,6 +20,14 @@ function Product() {
           <img src="images/4.png" alt=""  className="h-[200px]"/>
          
       </div>
+      <div className="relative flex justify-center ml-0 sm:ml-14">
+            <img
+              src="/images/btn-green.png"
+              className="w-[220px] h-auto"
+              alt=""
+            />
+            <h1 className=" absolute top-[32%] left-[46%]  font-bold text-xl">BUY NOW</h1>
+            </div>
       </div>
     </section>
   );

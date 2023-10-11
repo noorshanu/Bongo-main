@@ -34,7 +34,7 @@ function Roadmap() {
     
 
       <div className="container-wrapper mb-14">
-        <Title className="text-center mb-10 pt-8">ROADMAP</Title>
+        <Title className="text-center mb-10 pt-8">OUR ROAD MAP</Title>
 
         <img src="/images/roadmap.png" className="w-full" alt="" />
 
