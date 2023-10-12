@@ -28,11 +28,27 @@ function About() {
         </div>
 
         <div className=" mx-auto text-center my-10 relative z-10">
-          <img src="images/about-img.png" alt=""  data-aos="fade-up"
+          {/* <img src="images/about-img.png" alt=""  data-aos="fade-up"
      data-aos-offset="300" data-aos-duration="1500" 
-     data-aos-easing="ease-in-sine"/>
-          <img src="images/sky.png" alt="" className=" absolute -top-[90%] -right-[40%] -z-10 h-[900px] "  />
+     data-aos-easing="ease-in-sine"/> */}
+     <div className=" rounded-sm relative mx-auto flex justify-center gap-10 items-center">
+      <img src="images/star2.png" alt=""  className=" h-[150px] floating hidden sm:block"/>
+     <video
+        autoPlay
+        loop
+        muted
+        playsInline // Add playsInline for iOS Safari
+        className="  object-cover rounded-md border-2 sm:h-[400px]"
+      >
+        {/* Provide multiple video formats */}
+        <source src="images/bg-main.mp4" type="video/mp4" />
+        <source src="videos/bg-video.webm" type="video/webm" />
+        Your browser does not support the video tag.
+      </video>
+      <img src="images/star2.png" alt=""  className=" h-[150px] floating hidden sm:block"/>
+     </div>
         </div>
+          {/* <img src="images/sky.png" alt="" className=" absolute -top-[90%] -right-[40%] -z-10 h-[900px] "  /> */}
       </div>
    
     </section>

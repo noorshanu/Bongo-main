@@ -10,6 +10,7 @@ function Hero() {
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <img src="images/cloud1.png" alt="" className="x1 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[160px]  " />
         <img src="images/star.png" alt="" className="floating  absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block" />
+        <img src="images/star.png" alt="" className="floating  absolute top-[46%] right-[10%] w-auto h-[120px] hidden sm:block" />
         <img src="images/cloud2.png" alt="" className="x2 absolute w-auto h-[170px] hidden sm:block" />
         <img src="images/cloud2.png" alt="" className="x4 absolute w-auto h-[150px] hidden sm:block" />
         <img src="images/cloud1.png" alt="" className="x3 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[170px]  " />
@@ -21,25 +22,25 @@ function Hero() {
      data-aos-easing="ease-in-sine"
           alt=""
         />
-        <div className="   flex flex-col sm:flex-row justify-center gap-6">
+        <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
           <div className=" relative">
             <img
               src="/images/btn-pink.png"
-              className= "w-[150px] sm:w-[220px] h-auto mx-auto sm:mx-0"
+              className= "w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
               alt=""
               
             />
-            <h1 className=" absolute top-[32%] left-[26%] sm:left-[30%] -right[50%] font-bold text-base sm:text-xl">
+            <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[30%] -right[50%] font-bold text-sm sm:text-xl">
               PINKSALE
             </h1>
           </div>
           <div className="relative">
             <img
               src="/images/btn-sky.png"
-              className=" w-[150px] sm:w-[220px] h-auto mx-auto sm:mx-0"
+              className=" w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
               alt=""
             />
-            <h1 className=" absolute top-[32%] left-[13%] sm:left-[22%] -right[50%] font-bold text-base sm:text-xl">
+            <h1 className=" absolute top-[30%] sm:top-[32%] left-[12%] sm:left-[22%] -right[50%] font-bold text-sm sm:text-xl">
               COMMUNITY
             </h1>
           </div>
