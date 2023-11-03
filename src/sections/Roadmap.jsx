@@ -42,7 +42,7 @@ function Roadmap() {
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
-          <div className="bg-[#e9ecfa] py-5 px-5  rounded-md w-[100%] h-[250px]">
+          <div className="bg-[#e9ecfa] py-5 px-5  rounded-md w-[100%] h-[280px]">
             <div>
             <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 1</h1>
               <h1 className="font-dream text-black  text-lg mb-2">
@@ -71,7 +71,7 @@ function Roadmap() {
             <p  className=" text-base font-popins font-normal lh-1_7">• Complete our debut audit.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• KYC: Know Your Cat (done!).</p>
           </div>
-          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-[250px]">
+          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-[280px]">
           <div>
           <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 3</h1>
               <h1 className="font-dream text-black text-center text-lg mb-2">
