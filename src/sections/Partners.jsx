@@ -23,9 +23,11 @@ function Partners() {
                 <img src="images/okk.png" alt="" className=' h-20 ml-5  sm:w-auto mx-5 '/>
                 <img src="images/pink.png" alt="" className=' h-20  ml-5 sm:w-auto mx-5 '/>
                 <img src="images/coinsult.svg" alt="" className=' h-10 ml-5  sm:w-auto mx-5 '/>
+                <img src="images/solid.png" alt="" className=' h-12 ml-5  sm:w-auto mx-5 '/>
                 <img src="images/gate.svg" alt="" className=' h-12 ml-5  sm:w-auto mx-5 '/>
                 <img src="images/uniswap.png" alt="" className=' h-12 ml-5  sm:w-auto mx-5 '/>
-                
+              
+               <img src="images/dextool.png" alt="" className=' h-12 ml-5  sm:w-auto mx-5 '/>  
 </Marquee>
 
             </div>
