@@ -36,7 +36,7 @@ function Roadmap() {
       <div className="container-wrapper mb-14">
         <Title className="text-center mb-10 pt-8">OUR ROAD MAP</Title>
 
-        <img src="/images/roadmap.png" className="w-full" alt="" />
+        {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
           <div className="bg-[#e9ecfa] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">

@@ -5,6 +5,11 @@ import { Link } from "react-scroll";
 function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
+
   return (
     <>
       <nav className="z-[100] bg-white lg:bg-transparent">
@@ -61,17 +66,14 @@ function Navbar() {
       </nav>
 
       <div
-        className={`fixed  top-0 right-0 w-[16rem] h-screen z-[10000] bg-white border-l-4 border-primary pt-6 px-8 transition-all duration-300 ${
-          !sidebarOpen ? "translate-x-[16rem]" : "translate-x-0"
+        className={`fixed top-0 right-0 w-[16rem] h-screen z-[10000] bg-white border-l-4 border-primary pt-6 px-8 transition-all duration-300 ${
+          sidebarOpen ? "translate-x-0" : "translate-x-[16rem]"
         }`}
       >
         <div className="flex items-center justify-between mb-8">
           <img src="/images/logo.png" className="w-full max-w-[9rem]" alt="" />
 
-          <button
-            className="text-black text-2xl"
-            onClick={() => setSidebarOpen(false)}
-          >
+          <button className="text-black text-2xl" onClick={toggleSidebar}>
             <IoClose />
           </button>
         </div>
@@ -108,9 +110,7 @@ function Navbar() {
         </div>
       </div>
 
-      <div
-        className={`black-screen z-[900] ${sidebarOpen ? "show" : ""}`}
-      ></div>
+      <div className={`black-screen z-[900] ${sidebarOpen ? "show" : ""}`} onClick={toggleSidebar}></div>
     </>
   );
 }
