@@ -13,7 +13,7 @@ function Partners() {
                 </div>
             </div>
 
-            <div className=' '>
+            <div className=' mt-5 '>
             <Marquee autoFill={true} >
 
                 
