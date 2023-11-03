@@ -44,27 +44,46 @@ function Roadmap() {
         <div className="flex justify-between flex-col sm:flex-row gap-5">
           <div className="bg-[#e9ecfa] py-5 px-5  rounded-md w-[100%] h-[250px]">
             <div>
-              <h1 className="font-dream text-black text-center text-lg mb-2">
-                Phase 1: The Bongo Beat Begins
+            <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 1</h1>
+              <h1 className="font-dream text-black  text-lg mb-2">
+                The Bongo Beat Begins
               </h1>
             </div>
-            <p> Drum up the Bongo Cat concept.</p>
-            <p>Compose the whitepaper symphony.</p>
-            <p>Design our purr-fect website and branding.</p>
-            <p>Mint the $BONGO token.</p>
-            <p>Complete our debut audit.</p>
-            <p>KYC: Know Your Cat (done!).</p>
+            <p className=" text-base font-popins font-normal lh-1_7">• Drum up the Bongo Cat concept.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Compose the whitepaper symphony.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Design purr-fect website & branding.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Mint the $BONGO token.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Complete our debut audit.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• KYC: Know Your Cat (done!).</p>
           </div>
 
-          <div className="bg-[#ffeeb9] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
-            <div>
-              <h1 className="font-dream text-black">Phase 2</h1>
+          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-[280px]">
+          <div>
+            <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 2</h1>
+              <h1 className="font-dream text-black  text-lg mb-2">
+               The Bongo Band Assembles
+              </h1>
             </div>
+            <p className=" text-base font-popins font-normal lh-1_7">• Gather our cat community.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Compose the whitepaper symphony.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Design purr-fect website & branding.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Mint the $BONGO token.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Complete our debut audit.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• KYC: Know Your Cat (done!).</p>
           </div>
-          <div className="bg-[#fbcbe6] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
-            <div>
-              <h1 className="font-dream text-black">Phase 3</h1>
+          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-[250px]">
+          <div>
+          <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 3</h1>
+              <h1 className="font-dream text-black text-center text-lg mb-2">
+              Bongo's Worldwide Tour
+              </h1>
             </div>
+            <p className=" text-base font-popins font-normal lh-1_7">• Drum up the Bongo Cat concept.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Compose the whitepaper symphony.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Design purr-fect website & branding.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Mint the $BONGO token.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Complete our debut audit.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• KYC: Know Your Cat (done!).</p>
           </div>
         </div>
       </div>
