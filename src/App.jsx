@@ -12,7 +12,7 @@ function App() {
     <div className="flex flex-col">
       <main className="flex-1">
         <div className="relative z-10">
-          <div className="lg:absolute top-8 2xl:top-10 left-0 w-full z-20">
+          <div className="lg:absolute relative sm:top-8 2xl:top-10 left-0 w-full z-50">
             <Navbar />
           </div>
 

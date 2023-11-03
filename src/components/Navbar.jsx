@@ -70,7 +70,7 @@ function Navbar() {
           sidebarOpen ? "translate-x-0" : "translate-x-[16rem]"
         }`}
       >
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-8 z-50">
           <img src="/images/logo.png" className="w-full max-w-[9rem]" alt="" />
 
           <button className="text-black text-2xl" onClick={toggleSidebar}>
