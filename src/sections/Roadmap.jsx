@@ -30,8 +30,11 @@ const Grid = ({ direction = "left" }) => {
 function Roadmap() {
   return (
     <section className="relative z-10 ">
-      <img src="images/purple.png" alt="" className=" absolute -top-[50%] right-0 -z-10 h-[600px] hidden sm:block"  />
-    
+      <img
+        src="images/purple.png"
+        alt=""
+        className=" absolute -top-[50%] right-0 -z-10 h-[600px] hidden sm:block"
+      />
 
       <div className="container-wrapper mb-14">
         <Title className="text-center mb-10 pt-8">OUR ROAD MAP</Title>
@@ -39,23 +42,30 @@ function Roadmap() {
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
-          <div className="bg-[#e9ecfa] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
-            
+          <div className="bg-[#e9ecfa] py-5 px-5  rounded-md w-[100%] h-[250px]">
             <div>
-              <h1 className="font-dream text-black">Phase 1</h1>
-              </div></div> 
+              <h1 className="font-dream text-black text-center text-lg mb-2">
+                Phase 1: The Bongo Beat Begins
+              </h1>
+            </div>
+            <p> Drum up the Bongo Cat concept.</p>
+            <p>Compose the whitepaper symphony.</p>
+            <p>Design our purr-fect website and branding.</p>
+            <p>Mint the $BONGO token.</p>
+            <p>Complete our debut audit.</p>
+            <p>KYC: Know Your Cat (done!).</p>
+          </div>
 
-              <div className="bg-[#ffeeb9] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
-            
+          <div className="bg-[#ffeeb9] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
             <div>
               <h1 className="font-dream text-black">Phase 2</h1>
-              </div></div> 
-              <div className="bg-[#fbcbe6] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
-            
+            </div>
+          </div>
+          <div className="bg-[#fbcbe6] py-5 px-5 text-center rounded-md w-[100%] h-[250px]">
             <div>
               <h1 className="font-dream text-black">Phase 3</h1>
-              </div></div> 
-
+            </div>
+          </div>
         </div>
       </div>
     </section>
