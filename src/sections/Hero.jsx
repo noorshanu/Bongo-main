@@ -34,6 +34,28 @@ function Hero() {
               Buy Now
             </h1>
           </div>
+          <div className=" relative">
+            <img
+              src="/images/btn-pink.png"
+              className= "w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
+              alt=""
+              
+            />
+            <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[38%] -right[50%] font-bold text-sm sm:text-xl">
+              Dapp
+            </h1>
+          </div>
+          <div className=" relative">
+            <img
+              src="/images/btn-pink.png"
+              className= "w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
+              alt=""
+              
+            />
+            <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[20%] -right[50%] font-bold text-sm sm:text-xl text-center">
+            Dexscreener
+            </h1>
+          </div>
           <div className="flex items-center gap-5 justify-center lg:justify-end">
              <a href="/">
               <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
