@@ -22,47 +22,28 @@ function Hero() {
      data-aos-easing="ease-in-sine"
           alt=""
         />
-        <div className="   flex  justify-center gap-6 mt-7 sm:mt-2">
-          <div className=" relative">
-            <img
-              src="/images/btn-pink.png"
-              className= "w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
-              alt=""
-              
-            />
-            <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[30%] -right[50%] font-bold text-sm sm:text-xl">
+        <div className="   flex flex-col sm:flex-row  justify-center gap-6 mt-7 sm:mt-2 items-center ">
+          <div className=" relative flex items-center gap-1 sm:gap-2">
+          <a href="#" className="  font-bold text-sm sm:text-xl bg-[#31b9b4] hover:bg-transparent hover:text-black px-4 py-2 rounded-full border-2 text-white border-black">
               Buy Now
-            </h1>
-          </div>
-          <div className=" relative">
-            <img
-              src="/images/btn-pink.png"
-              className= "w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
-              alt=""
-              
-            />
-            <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[38%] -right[50%] font-bold text-sm sm:text-xl">
+            </a>
+
+            <a href="#" className="  font-bold text-sm sm:text-xl bg-[#31b9b4] hover:bg-transparent hover:text-black px-8 py-2 rounded-full  border-2 text-white border-black">
               Dapp
-            </h1>
+            </a>
           </div>
-          <div className=" relative">
-            <img
-              src="/images/btn-pink.png"
-              className= "w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
-              alt=""
-              
-            />
-            <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[20%] -right[50%] font-bold text-sm sm:text-xl text-center">
-            Dexscreener
-            </h1>
-          </div>
+        
+       
           <div className="flex items-center gap-5 justify-center lg:justify-end">
+          <a href="/">
+              <img src="images/dex.svg" alt="" className="w-auto h-[55px] rounded-full" />
+             </a>
              <a href="/">
-              <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
+              <img src="TELEGRAM.png" alt="" className="w-auto h-[53px]" />
              </a>
          
              <a href="/">
-              <img src="X.png" alt="" className="w-auto h-[55px]" />
+              <img src="X.png" alt="" className="w-auto h-[53px]" />
              </a>
             </div>
         </div>
