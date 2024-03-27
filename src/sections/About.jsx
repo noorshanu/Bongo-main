@@ -15,15 +15,7 @@ function About() {
           <p className="font-daughter text-base sm:text-xl font-medium " data-aos="fade-up"
      data-aos-offset="300" data-aos-duration="1500" 
      data-aos-easing="ease-in-sine">
-            Meet Bongo Cat: the next meme sensation in the wild world of crypto.
-            Think you've seen it all with Shiba, Baby Doge, and our dear froggy
-            friend Pepe? Think again. Here comes a feline with rhythm, ambition,
-            and a dream to join the meme coin hall of fame. Why should dogs and
-            frogs have all the fun? Introducing Bongo Cat ($BONGO) – a token
-            that's purring its way to the top of the meme food chain. Missed the
-            Doge train? Froze before grabbing some Pepe? Don't let history
-            repeat itself. Jump onto the $BONGO bandwagon and let’s make crypto
-            history... or at least some really good memes.
+           Meet Bongo Cat: the next meme sensation in the wild world of crypto. Think you've seen it all with Wif, Myro, and our dear froggy friend Pepe? Think again. Here comes a feline with rhythm, ambition, and a dream to join the meme coin hall of fame. Why should dogs and frogs have all the fun? Introducing Bongo Cat ($BONGO) – a token that's purring its way to the top of the meme food chain. Missed the $Wif train? Froze before grabbing some Pepe? Don't let history repeat itself. Jump onto the $BONGO bandwagon and let’s make crypto history... or at least some really good memes.
           </p>
         </div>
 

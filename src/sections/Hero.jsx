@@ -18,7 +18,7 @@ function Hero() {
           src="/images/hero-img.png"
           className="w-full lg:w-[55%] lg:h-[60%] object-contain"
           data-aos="fade-up"
-     data-aos-offset="300" data-aos-duration="1500" 
+     data-aos-offset="300" data-aos-duration="1000" 
      data-aos-easing="ease-in-sine"
           alt=""
         />
@@ -31,19 +31,18 @@ function Hero() {
               
             />
             <h1 className=" absolute top-[30%] sm:top-[32%] left-[23%] sm:left-[30%] -right[50%] font-bold text-sm sm:text-xl">
-              PINKSALE
+              Buy Now
             </h1>
           </div>
-          <div className="relative">
-            <img
-              src="/images/btn-sky.png"
-              className=" w-[120px] sm:w-[220px] h-auto mx-auto sm:mx-0"
-              alt=""
-            />
-            <h1 className=" absolute top-[30%] sm:top-[32%] left-[12%] sm:left-[22%] -right[50%] font-bold text-sm sm:text-xl">
-              COMMUNITY
-            </h1>
-          </div>
+          <div className="flex items-center gap-5 justify-center lg:justify-end">
+             <a href="/">
+              <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
+             </a>
+         
+             <a href="/">
+              <img src="X.png" alt="" className="w-auto h-[55px]" />
+             </a>
+            </div>
         </div>
       </div>
     </section>

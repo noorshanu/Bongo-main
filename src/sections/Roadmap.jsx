@@ -50,11 +50,10 @@ function Roadmap() {
               </h1>
             </div>
             <p className=" text-base font-popins font-normal lh-1_7">• Drum up the Bongo Cat concept.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Compose the whitepaper symphony.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Compose the  symphony.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Design purr-fect website & branding.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Mint the $BONGO token.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Complete our debut audit.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• KYC: Know Your Cat (done!).</p>
+   
           </div>
 
           <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
@@ -65,9 +64,9 @@ function Roadmap() {
               </h1>
             </div>
             <p className=" text-base font-popins font-normal lh-1_7">• Gather our cat community.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Host a Pinksale Fairlaunch fiesta.</p>
+        
             <p  className=" text-base font-popins font-normal lh-1_7">• Amplify the Bongo beat with massive marketing.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Debut on Uniswap.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Debut on Raydium.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Unveil the Bongo Cat Music Platform.</p>
 
           </div>

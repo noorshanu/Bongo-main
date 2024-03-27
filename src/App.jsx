@@ -40,17 +40,17 @@ function App() {
         <div className="mb-14 lg:mb-20" id="tokenomics">
           <Tokenomics />
         </div>
-        <div className="mb-14 lg:mb-20" id="tokenomics">
+        {/* <div className="mb-14 lg:mb-20" id="tokenomics">
           <Product />
-        </div>
+        </div> */}
 
         <div id="roadmap">
           <Roadmap />
         </div>
 
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <FeaturedOn />
-        </div>
+        </div> */}
       </main>
 
       <div id="contact">
