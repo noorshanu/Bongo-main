@@ -62,7 +62,7 @@ function JoinCommunity() {
 
         <div className="flex  items-center justify-center ">
           <p className="text-center  font-bold">
-            All rights reserved | by BonggoCatToken 2023
+            All rights reserved | by Bonggo Cat Token 2023
           </p>
         </div>
       </div>
