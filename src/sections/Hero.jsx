@@ -28,7 +28,7 @@ function Hero() {
               Buy Now
             </a>
 
-            <a href="#" className="  font-bold text-sm sm:text-xl bg-[#31b9b4] hover:bg-transparent hover:text-black px-8 py-2 rounded-full  border-2 text-white border-black">
+            <a href="https://dapp.bongocatcoin.xyz/" className="  font-bold text-sm sm:text-xl bg-[#31b9b4] hover:bg-transparent hover:text-black px-8 py-2 rounded-full  border-2 text-white border-black">
               Dapp
             </a>
           </div>
