@@ -35,7 +35,7 @@ function Hero() {
         
        
           <div className="flex items-center gap-5 justify-center lg:justify-end">
-          <a href="/">
+          <a href="https://dexscreener.com/solana/2Hc6xLPvZxM8z6FbcsiDNRD1K6RA26GgRrf2RfkVzeUV">
               <img src="images/dex.svg" alt="" className="w-auto h-[55px] rounded-full" />
              </a>
              <a href="https://t.me/bongocatchat">
