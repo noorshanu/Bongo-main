@@ -38,7 +38,7 @@ function Hero() {
           <a href="/">
               <img src="images/dex.svg" alt="" className="w-auto h-[55px] rounded-full" />
              </a>
-             <a href="/">
+             <a href="https://t.me/bongocatchat">
               <img src="TELEGRAM.png" alt="" className="w-auto h-[53px]" />
              </a>
          
