@@ -42,7 +42,7 @@ function Hero() {
               <img src="TELEGRAM.png" alt="" className="w-auto h-[53px]" />
              </a>
          
-             <a href="/">
+             <a href="https://x.com/bongocatx">
               <img src="X.png" alt="" className="w-auto h-[53px]" />
              </a>
             </div>
