@@ -24,7 +24,7 @@ function Hero() {
         />
         <div className="   flex flex-col sm:flex-row  justify-center gap-6 mt-7 sm:mt-2 items-center ">
           <div className=" relative flex items-center gap-1 sm:gap-2">
-          <a href="#" className="  font-bold text-sm sm:text-xl bg-[#31b9b4] hover:bg-transparent hover:text-black px-4 py-2 rounded-full border-2 text-white border-black">
+          <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=2Hc6xLPvZxM8z6FbcsiDNRD1K6RA26GgRrf2RfkVzeUV&outputSymbol=2Hc6xL&fixed=in" className="  font-bold text-sm sm:text-xl bg-[#31b9b4] hover:bg-transparent hover:text-black px-4 py-2 rounded-full border-2 text-white border-black">
               Buy Now
             </a>
 
